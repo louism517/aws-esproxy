@@ -32,7 +32,6 @@ func main() {
 		os.Exit(1)
 	}
 	u, err := url.Parse(esUrl)
-	fmt.Println(u)
 	if err != nil {
 		log.Fatalf("Unable to parse URL: %s\n", err)
 	}
