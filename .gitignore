@@ -1,0 +1,5 @@
+*.swp
+# ignore binary
+aws-esproxy
+# Ignore vendored library packages
+vendor/*/
