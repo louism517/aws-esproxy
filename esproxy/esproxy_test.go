@@ -5,8 +5,9 @@ import (
 	"net/http/httptest"
 	"net/url"
 	"os"
-	"reverse-proxy/creds"
 	"testing"
+
+	"github.com/louism517/aws-esproxy/creds"
 )
 
 func TestReverseAWSProxy(t *testing.T) {

@@ -8,7 +8,7 @@ But this one provides the ability to use assumed STS credentials, and will will 
 
 ```bash
 # aws-esproxy -h
-Usage of ./reverse-proxy:
+Usage of ./aws-esproxy:
   -arn="": ARN of role to be assumed. If ommitted then the default credential chain is used instead.
   -debug=false: Run in Debug mode.
   -esurl="": URL of AWS Elasticsearch endpoint

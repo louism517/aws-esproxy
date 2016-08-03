@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"net/url"
-	"reverse-proxy/creds"
 	"strings"
 
+	"github.com/louism517/aws-esproxy/creds"
 	"github.com/smartystreets/go-aws-auth"
 )
 

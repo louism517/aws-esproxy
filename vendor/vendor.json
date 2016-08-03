@@ -147,11 +147,6 @@
 			"path": "github.com/smartystreets/go-aws-auth",
 			"revision": "047be5a178d8309df2060aa5a4e757ec55eb58b1",
 			"revisionTime": "2016-03-22T22:22:20Z"
-		},
-		{
-			"checksumSHA1": "lRMewj7B1OzJE7TtGliQyZmCdtc=",
-			"path": "reverse-proxy/creds",
-			"revision": ""
 		}
 	],
 	"rootPath": "github.com/louism517/aws-esproxy"
