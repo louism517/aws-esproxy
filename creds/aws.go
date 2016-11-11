@@ -10,10 +10,6 @@ import (
 	"github.com/aws/aws-sdk-go/service/sts"
 )
 
-var region = "us-east-1"
-var assumeRoleArn = "arn:aws:iam::089266475114:role/aws-es-ecs-access"
-var sessionName = "fluentd"
-
 type AwsCredentialGetter interface {
 	GetCreds() (credentials.Value, error)
 }
